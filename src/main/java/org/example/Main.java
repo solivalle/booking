@@ -19,8 +19,7 @@ public class Main {
         BufferedReader reader;
 
         try {
-            URL fileUrl = new Main().getClass().getResource(filePath);
-            reader = new BufferedReader(new FileReader(fileUrl.getFile()));
+            reader = new BufferedReader(new FileReader(filePath));
             String line = reader.readLine();
             int lineCount = 0;
             Scheduler scheduler = Scheduler.getInstance();
