@@ -1,11 +1,24 @@
 package com.homework.manager;
 
 import com.homework.node.Schedule;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class SchedulerTest {
+
+    @BeforeEach
+    public void setup(){
+        for(int i = 0; i < 3; i++){
+            Schedule schedule = Scheduler.getInstance().find(i);
+            if(schedule == null)
+                continue;
+            int lower = schedule.getLowerValue();
+            int upper = schedule.getUpperValue();
+            Scheduler.getInstance().deleteSchedule(lower, upper);
+        }
+    }
 
     @Test
     public void initializeCorrectly(){
