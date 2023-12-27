@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-27T22:39:36" hostname="Sergios-MacBook-Pro.local" time="0.003">
+<testsuite name="org.example.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-27T22:44:03" hostname="Sergios-MacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="testMain()" classname="org.example.MainTest" time="0.003"/>
+  <testcase name="testMain()" classname="org.example.MainTest" time="0.002"/>
   <system-out><![CDATA[10,20-> false
 20,30-> true
 0,1-> line deleted

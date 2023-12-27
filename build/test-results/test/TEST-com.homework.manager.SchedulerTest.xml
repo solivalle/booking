@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.homework.manager.SchedulerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-27T22:39:36" hostname="Sergios-MacBook-Pro.local" time="0.01">
+<testsuite name="com.homework.manager.SchedulerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-27T22:44:03" hostname="Sergios-MacBook-Pro.local" time="0.011">
   <properties/>
   <testcase name="add3NodesNoOrder()" classname="com.homework.manager.SchedulerTest" time="0.007"/>
   <testcase name="initializeCorrectly()" classname="com.homework.manager.SchedulerTest" time="0.0"/>
-  <testcase name="add3NodesThenDelete()" classname="com.homework.manager.SchedulerTest" time="0.0"/>
+  <testcase name="add3NodesThenDelete()" classname="com.homework.manager.SchedulerTest" time="0.001"/>
   <testcase name="add3NodesWithIncorrectRanges()" classname="com.homework.manager.SchedulerTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
