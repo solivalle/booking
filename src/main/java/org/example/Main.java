@@ -14,10 +14,12 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
 
+        String filePath = args[0];
+
         BufferedReader reader;
 
         try {
-            URL fileUrl = new Main().getClass().getResource("/sample.csv");
+            URL fileUrl = new Main().getClass().getResource(filePath);
             reader = new BufferedReader(new FileReader(fileUrl.getFile()));
             String line = reader.readLine();
             int lineCount = 0;
