@@ -130,4 +130,9 @@ public class Scheduler {
 
     }
 
+    //for testing
+    public Schedule getRoot(){
+        return root;
+    }
+
 }
